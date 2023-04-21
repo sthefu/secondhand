@@ -3,6 +3,10 @@ html, body {
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, p, a {
+  font-family: "Overpass", sans-serif;
+}
+
 .masthead {
   background-image: url("../img/bg-masthead.jpg");
   box-shadow: inset 0 0 0 1000px rgba(52, 0, 241, 0.178);
@@ -11,9 +15,9 @@ html, body {
 }
 
 .blue-divider {
-    background-color: #007bff;
-    width: 50px;
-    height: 2px;
+    background-color: white;
+    width: 60%;
+    height: 3px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -149,7 +153,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(0):before {
-  content: '0';
+ 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -161,7 +165,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(1):before {
-  content: '1';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -173,7 +177,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(2):before {
-  content: '2';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -185,7 +189,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(3):before {
-  content: '3';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,7 +201,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(4):before {
-  content: '4';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,7 +213,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(5):before {
-  content: '5';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -221,7 +225,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(6):before {
-  content: '6';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -233,7 +237,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(7):before {
-  content: '7';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -245,7 +249,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(8):before {
-  content: '8';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -257,7 +261,7 @@ html body .heading a .fab {
 }
 
 .card-carousel .my-card:nth-child(9):before {
-  content: '9';
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -288,8 +292,82 @@ html body .heading a .fab {
 
 /*slideshow End*/
 
+.season-container {
+  background-color: #9f3341;
+}
 
- 
+.season-header {
+  color: white;
+  font-size: 2.8rem;
+}
 
+.season-background {
+  background-image: url("../img/flower-bg.jpg");
 
+}
+
+.season-card-container {
+  background-color: #9f3341;
+  width: 70%;
   
+}
+
+.season-card-container .card {
+  background-color: #ff869e;
+}
+
+.card-title, .card-text {
+  color: white;
+}
+ 
+.login-bg {
+  background-image: url("../img/plants-bg.jpg");
+  height: 600px;
+  padding: 150px;
+}
+
+.login-container {
+position: relative;
+height: 300px;
+align-items: center;
+background-color: white;
+border-radius: 8px;
+}
+
+.login-container p {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.login-button {
+  border-radius: 10px;
+}
+
+.styles-background {
+  background-color: #D8BFD8;
+}
+
+.styles-card-container {
+  background-color:  #4B0082;
+  width: 70%;
+  
+}
+.styles-card-container .card {
+  background-color: #4B0082;
+}
+
+.styles-button-container {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.style-buttons {
+  border-radius: 10px;
+  
+ 
+}
