@@ -4,7 +4,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, p, a {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Gantari', sans-serif;
+
 }
 
 .masthead {
@@ -346,6 +347,9 @@ border-radius: 8px;
 
 .login-button {
   border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
 }
 
 .styles-background {
@@ -362,12 +366,13 @@ border-radius: 8px;
 }
 
 .styles-button-container {
-  margin-left: 1px;
-  margin-right: 1px;
+  
 }
 
-.style-buttons {
+.styles-buttons {
   border-radius: 10px;
-  
- 
+}
+
+.styles-span {
+  font-family: 'Gantari', sans-serif;
 }
