@@ -13,10 +13,11 @@
 <script defer src="js/script.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
 
-
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Gantari&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
-
+<script src="https://kit.fontawesome.com/ea98f937a1.js" crossorigin="anonymous"></script>
 
 
 
@@ -27,7 +28,7 @@
     <div id="site-container" class="container-fluid g-0">
       
         <!--Menu-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+        <nav class="navbar navbar-expand-lg navbar-light row">
           <div class="container-fluid">
           <a class="navbar-brand" href="#">Women</a>
           <a class="navbar-brand" href="#">Men</a>
@@ -45,7 +46,7 @@
         
         
         
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #516BEB;">
+        <nav class="navbar navbar-expand-lg navbar-dark" >
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +55,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Clothes
                   </a>
@@ -82,7 +83,7 @@
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Shoes
                   </a>
@@ -110,7 +111,7 @@
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Accessories
                   </a>
@@ -138,7 +139,7 @@
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Brands
                   </a>
@@ -193,7 +194,7 @@
         </div> 
       
 
-        <h2 class="text-center mt-5">New in!</h2>
+        <h2 class="text-center mt-5 new-in-text">New in!</h2>
         
         <section class="mt-5 mb-5">
           <div class="rt-container">
@@ -370,9 +371,15 @@
             <div class="col-lg-6 d-flex">
               <div class="text-container p-4">
               <h2>Why shop secondhand?</h2>
-              <p style="font-size: 1.2em;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, 
-                similique! Consequatur maxime beatae similique! Tempore, minus sunt doloremque
-                 vel necessitatibus assumenda magni eveniet aliquid eos nemo veniam eum nam aliquam?</p>
+              <p style="font-size: 1.2em;">Your day starts with choosing what to wear. Our clothes define ourselves and how we want to be
+                percieved. We have millions of different options on what stores we want to shop in. 
+                We get to carefully choose what we want to add to our wardrobe and everyone has a completely unique set of clothes.
+                But why should anyone shop secondhand? <br><br>Firstly, secondhand is a sustainable and very environmentally friendly option
+                as it reduces the demand for new goods and helps minimize waste. Secondly, buying secondhand items can save you money as these products
+                are often priced lower than their brand counterparts. It also allows you to discover unique and one-of-a-kind items
+                that cannot be found in traditional retail stores.<br><br> Overall, shopping secondhand can be a practical, ethical
+                and enjoyable way to shop!
+                </p>
               </div>
             </div>
           
@@ -397,9 +404,9 @@
           <div class="card col-lg-6 login-bg">
             <div class="card-body login-container">
               <h5 class="card-title text-center m-3" style="color: black;">Beome a member today!</h5>
-              <p class="card-text text-center" style="color: black;">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text text-center" style="color: black;">Join our movement and start shopping secondhand with some extra benefits.</p>
               <div class="text-center">
-                <button class="button login-button">defsfffssfsf</button>
+                <button class="button login-button">Sign up</button>
               </div>
             </div>
           </div>
@@ -419,39 +426,42 @@
   
 
             <div class="styles-header text-center mb-5">
-            <h2>Style Wardrobe</h2>
+            <h2 class="styles-header">Style Wardrobe</h2>
             </div>
         
             <div class="row justify-content-center">
               <div class="col-sm-3 d-flex align-items-center"> 
                 <div class="card my-2 border-0">
+                  <div class="styles-card">
                   <h4 class="text-center">Streetwear</h4>
                     <img src="img/street-shirt.jpg" class="card-img-top" alt="...">
+                  </div>
                     <div class="card-body d-flex flex-column">
-                      <h6 class="card-title">Perfect ume</h6>
-                      <p class="card-text" style="font-size: 1.2em;">6.00€</p>
+                      
                     </div>
                   </div>
               </div>
                   
               <div class="col-sm-3 d-flex align-items-center"> 
                   <div class="card my-2 border-0">
+                    <div class="styles-card">
                     <h4 class="text-center">Classic</h4>
                     <img src="img/brown-jacket.jpg" class="card-img-top" alt="...">
+                    </div>
                     <div class="card-body d-flex flex-column">
-                      <h6 class="card-title">Natural Juice</h6>
-                      <p class="card-text" style="font-size: 1.2em;">12.00€</p>
+                     
                     </div>
                   </div>
               </div>
   
               <div class="col-sm-3 d-flex align-items-center"> 
                   <div class="card my-2 border-0">
+                    <div class="styles-card">
                     <h4 class="text-center">Chic</h4>
                     <img src="img/blue-shirt.jpg" class="card-img-top" alt="...">
+                    </div>
                     <div class="card-body d-flex flex-column">
-                      <h6 class="card-title">Avocado Beaut</h6>
-                      <p class="card-text" style="font-size: 1.2em;">7.00€</p>
+                      
                     </div>
                   </div>
               </div>  
@@ -459,6 +469,8 @@
             </div>
 
             <div class="row justify-content-center">
+
+              
 
               <div class="col styles-button-container text-center">
                 
@@ -472,6 +484,10 @@
 
                 
               </div>
+              <div class="text-center my-5">
+                <h4><a class="text-decoration-none link-light other-styles" href="#"> Show all styles </a><i class="fa-solid fa-arrow-right"></i></h4>
+              </div>
+              
               
               
               <!--<div class="col-2 styles-button-container">

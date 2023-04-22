@@ -28,8 +28,15 @@ h1, h2, h3, h4, h5, p, a {
   }
   
 /* Mega Menu Start */ 
+
+
+
+.navbar {
+  background-color: #7A4988;
+}
+
 .navbar-dark .navbar-nav a.nav-link {
-  color: #ffffff;
+  color: white;
   font-size: 1.1em;
 }
 .dropdown-menu {
@@ -136,8 +143,8 @@ html body .heading a .fab {
   transition: 1s;
 }
 .card-carousel .my-card img{
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -293,13 +300,20 @@ html body .heading a .fab {
 
 /*slideshow End*/
 
+.new-in-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
 .season-container {
   background-color: #9f3341;
 }
 
 .season-header {
   color: white;
-  font-size: 2.8rem;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  
 }
 
 .season-background {
@@ -355,13 +369,21 @@ border-radius: 8px;
 
 .login-button {
   border-radius: 10px;
+  width: 160px;
   border: none;
-  background-color: black;
+  background-color: #330000;
   color: white;
+  padding: 15px;
+}
+
+.login-button:hover {
+  background-color: #633939;
 }
 
 .styles-header {
   color: white;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
 }
 
 .styles-background {
@@ -377,9 +399,31 @@ border-radius: 8px;
   background-color: #7A4988;
 }
 
-.styles-button-container {
-  
+.styles-span {
+  color: white;
 }
+
+.styles-button-container .btn{
+  border: none;
+  background: #CD9B9B;
+}
+
+.styles-button-container .btn:hover{
+  border: none;
+  background: #c68484;
+}
+
+.styles-card {
+  
+  transform: scale(1);
+  transition: transform .5s;
+}
+
+.styles-card:hover {
+  transform: scale(1.08);
+}
+
+
 
 .styles-buttons {
   border-radius: 10px;
@@ -399,6 +443,14 @@ border-radius: 8px;
 
 .styles-card-container .card-body {
   padding-left: 0;
-  padding-top: 4px;
+  padding-top: 25px;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.other-styles:hover{
+  color: rgb(222, 221, 221);
 }
 
