@@ -31,8 +31,24 @@ h1, h2, h3, h4, h5, p, a {
 
 
 
+
+.navbar-row {
+  background-color: #ffede7;
+ 
+}
+
 .navbar {
-  background-color: #7A4988;
+  background-color: #ffede7;
+  
+}
+
+.men-container {
+  margin-left: 10%;
+  
+}
+
+.men-container a {
+  font-size: 30px;
 }
 
 .navbar-dark .navbar-nav a.nav-link {
@@ -44,6 +60,9 @@ h1, h2, h3, h4, h5, p, a {
   border: none;
   border-radius: 0;
   padding: 0.7em;
+  
+  
+  
 }
 @media only screen and (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
@@ -322,7 +341,7 @@ html body .heading a .fab {
 }
 
 .season-card-container {
-  background-color: #9f3341;
+  background-color: #ca8895;
   width: 70%;
   
 }
@@ -333,7 +352,7 @@ html body .heading a .fab {
 }
 
 .season-card-container .card {
-  background-color: #9f3341;
+  background-color: #ca8895;
 }
 
 
@@ -387,16 +406,16 @@ border-radius: 8px;
 }
 
 .styles-background {
-  background-color: #D8BFD8;
+  background-image: url("../img/purple-bg.jpg");
 }
 
 .styles-card-container {
-  background-color:  #7A4988;
+  background-color:  #3f6284;
   width: 70%;
   font-size: 14px;
 }
 .styles-card-container .card {
-  background-color: #7A4988;
+  background-color: #3f6284;
 }
 
 .styles-span {
@@ -454,3 +473,22 @@ border-radius: 8px;
   color: rgb(222, 221, 221);
 }
 
+
+.accessories-bg {
+  
+ border: none;
+}
+
+
+
+
+ 
+
+.accessories-bg .card-body {
+    background-color: #d8c0c0;
+    border-radius: 8px;
+    
+    flex: none;
+    
+}
+ 
