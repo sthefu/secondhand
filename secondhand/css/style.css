@@ -103,7 +103,7 @@ li {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #516beb;
+ 
 }
 .dropdown-menu li:first-child a:hover {
   background-color: #f1f1f1;
@@ -369,6 +369,8 @@ html body .heading a .fab {
 .season-card-container .card {
   background-color: #ca8895;
 }
+
+
 
 
 .card-title, .card-text {
