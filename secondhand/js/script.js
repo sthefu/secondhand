@@ -1,3 +1,5 @@
+
+
 $num = $('.my-card').length;
 $even = $num / 2;
 $odd = ($num + 1) / 2;
@@ -32,6 +34,8 @@ $('.my-card').click(function() {
 
 
 // Keyboard nav
+
+
 $('html body').keydown(function(e) {
   if (e.keyCode == 37) { // left
     $('.active').prev().trigger('click');
@@ -40,4 +44,5 @@ $('html body').keydown(function(e) {
     $('.active').next().trigger('click');
   }
 });
+
 
